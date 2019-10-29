@@ -25,7 +25,7 @@ def create_app(test_config=None):
 		
 		
 	# a simple page that says hi
-	@app.route('/hello)
+	@app.route('/hello')
 	def hello():
 		return 'Hey, whatsapp!!'
 		
